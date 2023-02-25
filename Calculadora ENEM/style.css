@@ -1,0 +1,212 @@
+@font-face {
+    font-family: gloock;
+    src: url(Gloock-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    width: 100%;
+    height: 130rem;
+    background: linear-gradient(rgb(215, 201, 253), rgb(33, 2, 63) );
+}
+
+.titulo {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    font-size: 100px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+
+}
+
+.descrição {
+    position: absolute;
+    margin: 80px 0px 0px 360px;
+    font-size: 50px;
+    color: rgb(0, 78, 122);
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-family: oswald;
+    font-weight: bold;
+    position: absolute;
+}
+
+.mat {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 100px 100px 360px;
+}
+
+.hum {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 100px 100px 610px;
+}
+
+.ling {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 100px 100px 860px;
+}
+
+.nat {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 100px 100px 1110px;
+}
+
+.red {
+    color: rgb(33, 2, 63);
+    font-family: oswald;
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 100px 100px 1360px;
+}
+
+
+textarea {
+    font-size: 40px;
+    color: rgb(33, 2, 63);
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-family: oswald;
+    position: absolute;
+    box-shadow: 1px 6px 5px rgb(185, 162, 247);
+    width: 200px;
+    height: 80px;
+    padding: 0px 10px 0px 50px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: rgb(33, 2, 63);
+    ;
+}
+
+.calc1 {
+
+    margin: 285px 100px 100px 340px;
+}
+
+.calc2 {
+
+    margin: 285px 100px 100px 590px;
+}
+
+.calc3 {
+
+    margin: 285px 100px 100px 840px;
+}
+
+.calc4 {
+
+    margin: 285px 100px 100px 1090px;
+}
+
+.calc5 {
+
+    margin: 285px 100px 100px 1340px;
+}
+
+.result {
+    color: rgb(33, 2, 63);
+    text-shadow: 1px 4px 5px rgb(185, 162, 247);
+    font-family: oswald;
+    padding: 20px;
+    font-size: 70px;
+    position: absolute;
+    margin: 430px 100px 100px 785px;
+    border: double;
+    border-radius: 50px;
+    border-width: 30px;
+    border-color: rgb(33, 2, 63);
+    box-shadow: 1px 6px 5px rgb(185, 162, 247);
+}
+
+.result:hover {
+    cursor: pointer;
+    border-color: rgb(185, 162, 247);
+    box-shadow: 1px 6px 5px rgb(33, 2, 63);
+    text-shadow: 1px 4px 5px rgb(33, 2, 63);
+    color: rgb(185, 162, 247);
+    background-color: rgb(33, 2, 63);
+    transition-duration: 1000ms;
+}
+
+.final {
+    font-size: 100px;
+    color:  rgb(0, 162, 255);
+    text-shadow: 1px 4px 5px rgb(33, 2, 63);
+    font-family: oswald;
+    position: absolute;
+    margin: 680px 100px 100px 350px;
+}
+
+.adcional {
+    width: 800px;
+    font-size: 60px;
+    color: rgb(185, 162, 247);
+    text-shadow: 1px 4px 5px rgb(33, 2, 63);
+    font-family: oswald;
+    position: absolute;
+    margin: 900px 0px 0px 20px;
+}
+
+.adcional2 {
+    position: absolute;
+    width: 800px;
+    font-size: 60px;
+    color: rgb(185, 162, 247) ;
+    text-shadow: 1px 4px 5px rgb(33, 2, 63);
+    font-family: oswald;
+    position: absolute;
+    margin: 1100px 0px 0px 20px;
+}
+
+strong {
+    color: rgb(58, 183, 255);
+    font-weight: bold;
+}
+
+.section {
+    background: linear-gradient rgb(185, 162, 247), rgb(33, 2, 63);
+}
+
+.calculadora {
+    position: absolute;
+    margin: 900px 0px 0px 1200px;
+}
+
+.enem{
+    position: absolute;
+    margin: 1500px 0px 0px 1300px;
+}
+
+.rodapé{
+    color: aliceblue;
+    position: inherit;
+    text-align: center;
+    margin-top: 1950px;
+}
